@@ -332,7 +332,7 @@ if (isset($_POST["submit"]) && $_POST["submit"] == "sendEmail") {
                     </fieldset>
                     <fieldset class="row">
                         <div class="col-md-6">
-                            <div class="g-recaptcha" data-sitekey="6LeQHkAUAAAAAIxFpA0sCv3nWkGofFY0MWN1xzbP"></div>             
+                            <div class="g-recaptcha" data-sitekey="<?php $config['recaptchaSecretKey'] ?>"></div>             
                             <!-- OVDE IDE DIV ZA RECAPTCHA-u!!!-->
                             <div class="validation">
                                 <?php
